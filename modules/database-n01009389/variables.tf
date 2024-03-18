@@ -1,4 +1,4 @@
-variable "database_name" {
+variable "dbserver_name" {
   description = "Name of the PostgreSQL server."
   type        = string
 }

@@ -1,6 +1,10 @@
 variable "vm_instances" {
   description = "Map of VM instances with unique identifiers."
-  type        = map(any)
+  type        = list(any)
+}
+
+variable "size" {
+
 }
 
 variable "resource_group_name" {
@@ -71,7 +75,7 @@ locals {
   }
 }
 
-variable "nb_count" {
+# variable "nb_count" {
   
-}
+# }
 

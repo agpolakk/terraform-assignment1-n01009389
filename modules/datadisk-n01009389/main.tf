@@ -1,6 +1,6 @@
 resource "azurerm_managed_disk" "datadisk" {
   # count                   = var.disk_count
-  for_each = var.disk_name
+  for_each                = var.disk_name
   # name                    = "${var.disk_name}-${count.index}"
   name                    = each.key
   location                = var.location

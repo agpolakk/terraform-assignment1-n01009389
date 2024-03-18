@@ -3,6 +3,6 @@ terraform {
     resource_group_name  = "tfstaten01009389RG"
     storage_account_name = "tfstaten01009389sa"
     container_name       = "tfstatefiles"
-    key                  = "terraform.tfstate"
+    key                  = "terraform.tfstate.assignment"
   }
 }
